@@ -17,3 +17,4 @@
 - [Git Flow Introdução](https://tableless.com.br/git-flow-introducao/)
 - [Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html)
 - [Versionamento Semântico](https://semver.org/lang/pt-BR/)
+- [Repositório Oficial](https://github.com/nvie/gitflow)
