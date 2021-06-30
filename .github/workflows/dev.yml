@@ -1,9 +1,12 @@
 name: Deploy Vue Dev
-on: push
+on: 
+  push:
+    branches:
+      - feature/*
 jobs:
   build:
     name: Build App
-    runs-on: [ubuntu-latest]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
           with:
