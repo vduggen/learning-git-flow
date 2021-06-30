@@ -1,5 +1,5 @@
 name: Deploy Vue Dev
-on: 
+on:
   push:
     branches:
       - feature/*
@@ -8,6 +8,5 @@ jobs:
     name: Build App
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-          with:
-            ref: ${{ github.ref }}
+      - name: Import commit files
+        uses: actions/checkout@master
