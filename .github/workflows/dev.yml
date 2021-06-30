@@ -1,0 +1,12 @@
+name: Deploy Vue Dev
+on:
+  push:
+    branches:
+      - feature/*
+jobs:
+  build:
+    name: Build App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Import commit files
+        uses: actions/checkout@master
